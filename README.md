@@ -1,5 +1,7 @@
 # Unsa Ni?
 
+**Live: <https://unsa-ni.vercel.app>** (open it on a phone and add it to your home screen)
+
 **Point it at a Filipino dish and it tells you what it is.** *Unsa ni?* is Bisaya for "what is this?". Take a photo of adobo, sinigang, halo-halo or 32 other dishes and the AI names it, says how sure it is, and tells you a little about the dish. It also says so when something is *not* a Filipino dish, or when it isn't sure.
 
 The AI runs **in your browser**. The photo is never uploaded, and there is no server or API key. It is also an **installable app (a PWA)**, and once you have used it online one time it **works with no internet at all**, because the AI is on your device.
