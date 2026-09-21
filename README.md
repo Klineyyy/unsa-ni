@@ -2,7 +2,7 @@
 
 **Point it at a Filipino dish and it tells you what it is.** *Unsa ni?* is Bisaya for "what is this?". Take a photo of adobo, sinigang, halo-halo or 32 other dishes and the AI names it, says how sure it is, and tells you a little about the dish. It also says so when something is *not* a Filipino dish, or when it isn't sure.
 
-The AI runs **in your browser**. The photo is never uploaded, and there is no server or API key.
+The AI runs **in your browser**. The photo is never uploaded, and there is no server or API key. It is also an **installable app (a PWA)**, and once you have used it online one time it **works with no internet at all**, because the AI is on your device.
 
 | Home | It knows this one | On a phone |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ npm run eval           # the numbers above
 ```
 
 ```bash
-npm test               # 21 tests: the preprocessing, the decision logic, and the data (no leakage, real licences)
+npm test               # 23 tests: the preprocessing, the decision logic, the data (no leakage, real licences), the offline cache list
 npm run typecheck && npm run lint
 ```
 
@@ -80,7 +80,9 @@ npm run typecheck && npm run lint
 ## How it's built
 
 ```
-app/components/    Lens (the page), DishInfo
+app/components/    Lens (the page), DishInfo, RegisterSW
+app/manifest.ts    the web app manifest (name, icons, colours)
+public/sw.js       the service worker that makes it work offline
 lib/
   classify.ts      photo numbers -> "answered" / "not sure" / "not a dish" (used by the app AND the eval)
   preprocess.ts    shrink and crop a photo the same way in training and in the browser
@@ -100,6 +102,7 @@ Next.js 16 (App Router), TypeScript, Tailwind 4.
 - It knows **35 dishes**. Anything else it will call "not sure" or "not a dish", or, about 9% of the time for things that aren't Filipino dishes, name one wrongly.
 - It sees a **centre square** of the photo (that is how CLIP works), so a dish at the edge of a wide photo can be cut off.
 - The **first photo downloads about 85 MB** (then it is cached), and takes 10 to 20 seconds on a good connection. After that a photo takes under a second.
+- **Offline needs one online use first**: the page, the AI (about 85 MB) and its runtime are cached the first time you take a photo. A browser can clear cached data when a phone is short of space, and then the AI downloads again. I tested offline in Chromium (page reload and a photo, with the network switched off), not on a real phone or in Safari.
 - The dish descriptions are short and general; regional versions vary a lot.
 - Some dishes had few usable photos (a handful of photographers), so the model may know them less well.
 

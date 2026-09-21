@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { Probe } from "./classify";
 import { samples } from "./samples";
@@ -82,5 +82,18 @@ describe("the sample photos in the app", () => {
       expect(byId.get(pageid)?.split, s.file).toBe("test");
       expect(s.license.length).toBeGreaterThan(0);
     }
+  });
+});
+
+describe("the service worker", () => {
+  const sw = readFileSync("public/sw.js", "utf8");
+
+  it("caches every sample photo, so the samples work offline", () => {
+    for (const file of readdirSync("public/samples")) expect(sw, file).toContain(`"/samples/${file}"`);
+  });
+
+  it("caches the icons named in the manifest and the classifier file", () => {
+    for (const icon of ["icon-192.png", "icon-512.png"]) expect(sw).toContain(`/icons/${icon}`);
+    expect(sw).toContain("/model/probe.json");
   });
 });

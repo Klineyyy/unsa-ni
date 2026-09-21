@@ -46,7 +46,9 @@ export default function Lens() {
           url,
           message: /decode|image|format/i.test(text)
             ? "I couldn't read that file as a photo. Try a JPEG or PNG."
-            : "Something went wrong while looking at the photo. Please try again.",
+            : !navigator.onLine
+              ? "You're offline, and the AI hasn't been downloaded yet. Connect once and it will work offline from then on."
+              : "Something went wrong while looking at the photo. Please try again.",
         });
       }
     },
@@ -68,8 +70,13 @@ export default function Lens() {
   );
 
   const handleSample = async (file: string) => {
-    const blob = await (await fetch(`/samples/${file}`)).blob();
-    void analyse(blob, `/samples/${file}`);
+    try {
+      const response = await fetch(`/samples/${file}`);
+      if (!response.ok) throw new Error(String(response.status));
+      void analyse(await response.blob(), `/samples/${file}`);
+    } catch {
+      setPhase({ kind: "error", message: "I couldn't load that sample photo. Check your connection, or choose a photo of your own." });
+    }
   };
 
   // paste a photo from the clipboard
@@ -83,6 +90,8 @@ export default function Lens() {
 
   const shown = selected ? dishById.get(selected) : undefined;
   const busy = phase.kind === "working";
+  // once the AI has loaded and the service worker is in charge, the app keeps working with no connection
+  const offlineReady = vision.status === "ready" && typeof navigator !== "undefined" && !!navigator.serviceWorker?.controller;
   const status = useMemo(() => {
     if (vision.status === "loading") return `Waking up the AI… ${Math.round(vision.progress * 100)}% (first photo only, about 85 MB)`;
     if (busy) return "Looking at your photo…";
@@ -149,7 +158,7 @@ export default function Lens() {
       </section>
 
       <div aria-live="polite" className="mt-4 min-h-6 text-center text-sm text-muted">
-        {status}
+        {status || (offlineReady && <span className="font-semibold text-leaf-dark">✓ The AI is on this device, so it works offline too</span>)}
       </div>
 
       <div ref={results} className="scroll-mt-4">
