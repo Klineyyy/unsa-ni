@@ -1,0 +1,500 @@
+{
+ "note": "Test photos left out after looking at every one: not a photo of the dish (a sign, a table of nutrition facts, a stage show, raw ingredients, a different dish) or too ambiguous to call. Reviewed by eye on 2026-09-21.",
+ "excluded": [
+  {
+   "pageid": 8025602,
+   "dish": "adobo",
+   "title": "File:Panceta de Cerdo Ib\u00e9rico.jpg"
+  },
+  {
+   "pageid": 8249543,
+   "dish": "adobo",
+   "title": "File:Lomo en adobo-2009.jpg"
+  },
+  {
+   "pageid": 8834608,
+   "dish": "adobo",
+   "title": "File:Pinchos morunos-Madrid.jpg"
+  },
+  {
+   "pageid": 12158512,
+   "dish": "adobo",
+   "title": "File:Tortillitas-y-Morena-15112010302.jpg"
+  },
+  {
+   "pageid": 20310850,
+   "dish": "adobo",
+   "title": "File:Adobo - Tocino.JPG"
+  },
+  {
+   "pageid": 20975178,
+   "dish": "adobo",
+   "title": "File:Panceta - Asado.JPG"
+  },
+  {
+   "pageid": 47645089,
+   "dish": "balut",
+   "title": "File:Egg minerlas.jpg"
+  },
+  {
+   "pageid": 47645136,
+   "dish": "balut",
+   "title": "File:Balut eggs.jpg"
+  },
+  {
+   "pageid": 61403856,
+   "dish": "balut",
+   "title": "File:09679jfFilipino cuisine foods desserts breads Landmarks Bulacanfvf 17.jpg"
+  },
+  {
+   "pageid": 61675007,
+   "dish": "balut",
+   "title": "File:06749jfCuisine Foods Takoyaki cooking Balut Penoy Baliuag Bulacanfvf 11.jpg"
+  },
+  {
+   "pageid": 98407682,
+   "dish": "balut",
+   "title": "File:9751Bulacan Baliuag Town Proper 03.jpg"
+  },
+  {
+   "pageid": 99952552,
+   "dish": "balut",
+   "title": "File:Balot Penoy.jpg"
+  },
+  {
+   "pageid": 14725876,
+   "dish": "bibingka",
+   "title": "File:Philippine Dessert Bibingka.jpg"
+  },
+  {
+   "pageid": 14725905,
+   "dish": "bibingka",
+   "title": "File:Philippine Dessert Bibingka Galapong.jpg"
+  },
+  {
+   "pageid": 126483337,
+   "dish": "bibingka",
+   "title": "File:Luisiana specialty Bibingka.jpg"
+  },
+  {
+   "pageid": 141710124,
+   "dish": "bibingka",
+   "title": "File:\"Bibingka- The Family Heirloom\".jpg"
+  },
+  {
+   "pageid": 144672204,
+   "dish": "bibingka",
+   "title": "File:Bibingka (opened) from Cebu.jpg"
+  },
+  {
+   "pageid": 144672205,
+   "dish": "bibingka",
+   "title": "File:Bibingka wrapped in leaves from Cebu.jpg"
+  },
+  {
+   "pageid": 151438700,
+   "dish": "bibingka",
+   "title": "File:Mini Bibingka from Jaro, Iloilo City.jpg"
+  },
+  {
+   "pageid": 29439989,
+   "dish": "bicol-express",
+   "title": "File:Bicol Express.jpg"
+  },
+  {
+   "pageid": 75245076,
+   "dish": "bicol-express",
+   "title": "File:Kagay-anon Bicol Express.jpg"
+  },
+  {
+   "pageid": 131788200,
+   "dish": "bicol-express",
+   "title": "File:Bicol express made by Pinoy.jpg"
+  },
+  {
+   "pageid": 141082402,
+   "dish": "champorado",
+   "title": "File:Tuyo at Champorado.jpg"
+  },
+  {
+   "pageid": 142933700,
+   "dish": "champorado",
+   "title": "File:Ube champurrado.jpg"
+  },
+  {
+   "pageid": 30897206,
+   "dish": "chicken-inasal",
+   "title": "File:PulilanBulacanjf8794 39.JPG"
+  },
+  {
+   "pageid": 30897209,
+   "dish": "chicken-inasal",
+   "title": "File:PulilanBulacanjf8794 40.JPG"
+  },
+  {
+   "pageid": 126122328,
+   "dish": "dinuguan",
+   "title": "File:Dinuguan-2022.jpg"
+  },
+  {
+   "pageid": 153790718,
+   "dish": "dinuguan",
+   "title": "File:Vegan DinuguanA.jpg"
+  },
+  {
+   "pageid": 153790721,
+   "dish": "dinuguan",
+   "title": "File:Vegan Dinuguan Naga CityC.jpg"
+  },
+  {
+   "pageid": 40530092,
+   "dish": "ensaymada",
+   "title": "File:Ensaimada with 2-year aged Welsh Cheddar @bakercakemaker la -ensaimada -ensaymada -Filipino -FilipinoFood -FilipinoFoodMovement (17087796356).jpg"
+  },
+  {
+   "pageid": 15546468,
+   "dish": "fish-ball",
+   "title": "File:LianjiangFishball.jpg"
+  },
+  {
+   "pageid": 45829971,
+   "dish": "fish-ball",
+   "title": "File:Curry Fish Balls 1A.jpg"
+  },
+  {
+   "pageid": 92516612,
+   "dish": "fish-ball",
+   "title": "File:\u0e25\u0e39\u0e01\u0e0a\u0e34\u0e49\u0e19\u0e17\u0e2d\u0e141.jpg"
+  },
+  {
+   "pageid": 106274341,
+   "dish": "fish-ball",
+   "title": "File:Eat well with mee hoon.jpg"
+  },
+  {
+   "pageid": 143062006,
+   "dish": "fish-ball",
+   "title": "File:Fish balls and Chinese fried fish sausages with sauce.jpg"
+  },
+  {
+   "pageid": 143062137,
+   "dish": "fish-ball",
+   "title": "File:Tomyam fish ball and Chinese fried fish saugage noodle soup.jpg"
+  },
+  {
+   "pageid": 149055075,
+   "dish": "fish-ball",
+   "title": "File:Fat choy fish balls.jpg"
+  },
+  {
+   "pageid": 53326518,
+   "dish": "ginataan",
+   "title": "File:Ginataan003.jpg"
+  },
+  {
+   "pageid": 56416177,
+   "dish": "ginataan",
+   "title": "File:Laing002.jpg"
+  },
+  {
+   "pageid": 59803718,
+   "dish": "ginataan",
+   "title": "File:Pinangat tinda.jpg"
+  },
+  {
+   "pageid": 59803910,
+   "dish": "ginataan",
+   "title": "File:Paratindang pinangat.jpg"
+  },
+  {
+   "pageid": 59804096,
+   "dish": "ginataan",
+   "title": "File:Pinangat sa restoran.jpg"
+  },
+  {
+   "pageid": 151834651,
+   "dish": "halo-halo",
+   "title": "File:Skinless Longsilog + Halo-halo in Taichung.jpg"
+  },
+  {
+   "pageid": 75733712,
+   "dish": "isaw",
+   "title": "File:Chickenini - Adobong Chicken Intestines (Isaw).jpg"
+  },
+  {
+   "pageid": 89577938,
+   "dish": "kaldereta",
+   "title": "File:3764Baliuag Bulacan Landmarks during the 2020 coronavirus pandemic 33.jpg"
+  },
+  {
+   "pageid": 91802360,
+   "dish": "kaldereta",
+   "title": "File:9566Photos taken during the 2020 coronavirus pandemic in Baliuag, Bulacan 50.jpg"
+  },
+  {
+   "pageid": 75300408,
+   "dish": "kare-kare",
+   "title": "File:Kare-kare oxtail stew 2.jpg"
+  },
+  {
+   "pageid": 127491287,
+   "dish": "kare-kare",
+   "title": "File:Beef Kare-Kare.jpg"
+  },
+  {
+   "pageid": 127491321,
+   "dish": "kare-kare",
+   "title": "File:Kare-Kare.jpg"
+  },
+  {
+   "pageid": 142181135,
+   "dish": "kare-kare",
+   "title": "File:Bagnet Kare Kare.jpg"
+  },
+  {
+   "pageid": 148396751,
+   "dish": "kare-kare",
+   "title": "File:Kare-kare (Philippines) 01.jpg"
+  },
+  {
+   "pageid": 148396755,
+   "dish": "kare-kare",
+   "title": "File:Kare-kare (Philippines) 02.jpg"
+  },
+  {
+   "pageid": 148396756,
+   "dish": "kare-kare",
+   "title": "File:Kare-kare (Philippines) 03.jpg"
+  },
+  {
+   "pageid": 149149437,
+   "dish": "kinilaw",
+   "title": "File:Kilawin, Jun 2024.jpg"
+  },
+  {
+   "pageid": 164743081,
+   "dish": "kinilaw",
+   "title": "File:Insarabasab tinuno sarabasab Ilocano style sisig.jpg"
+  },
+  {
+   "pageid": 143239156,
+   "dish": "kutsinta",
+   "title": "File:Piche piche and kutsinta.jpg"
+  },
+  {
+   "pageid": 149144997,
+   "dish": "kutsinta",
+   "title": "File:Kutsinta, Jun 2024.jpg"
+  },
+  {
+   "pageid": 145994588,
+   "dish": "kwek-kwek",
+   "title": "File:Instant Pancit Canton + Kwek-Kwek from U.P. Diliman.jpg"
+  },
+  {
+   "pageid": 145994590,
+   "dish": "kwek-kwek",
+   "title": "File:Kwek-Kwek from U.P. Diliman.jpg"
+  },
+  {
+   "pageid": 25556383,
+   "dish": "laing",
+   "title": "File:Laing (band) CD promotion 04-2013.jpg"
+  },
+  {
+   "pageid": 80665337,
+   "dish": "laing",
+   "title": "File:Laing (ZMF 2019) jm81959.jpg"
+  },
+  {
+   "pageid": 80665342,
+   "dish": "laing",
+   "title": "File:Laing (ZMF 2019) jm81987.jpg"
+  },
+  {
+   "pageid": 75245891,
+   "dish": "lechon",
+   "title": "File:Cagayan - Genaro's Piankbet with Lechon Kawali.jpg"
+  },
+  {
+   "pageid": 154891793,
+   "dish": "lechon",
+   "title": "File:Lechon Manok (Taichung), Nov 2024.jpg"
+  },
+  {
+   "pageid": 154891794,
+   "dish": "lechon",
+   "title": "File:Lechon Manok + Rice (Taichung), Nov 2024.jpg"
+  },
+  {
+   "pageid": 154891795,
+   "dish": "lechon",
+   "title": "File:Lechon Manok + Rice + Coke (Taichung).jpg"
+  },
+  {
+   "pageid": 142774396,
+   "dish": "lechon-kawali",
+   "title": "File:Lechon Kawali and Pinangat of La Herencia Comida.jpg"
+  },
+  {
+   "pageid": 142909860,
+   "dish": "lechon-kawali",
+   "title": "File:Pork Lechon Belly.jpg"
+  },
+  {
+   "pageid": 118373070,
+   "dish": "lugaw",
+   "title": "File:Lugaw republic.jpg"
+  },
+  {
+   "pageid": 128054927,
+   "dish": "lugaw",
+   "title": "File:Lugaw Philippines 04.jpg"
+  },
+  {
+   "pageid": 129164079,
+   "dish": "lugaw",
+   "title": "File:Girls cooking 03.jpg"
+  },
+  {
+   "pageid": 64063499,
+   "dish": "lumpia",
+   "title": "File:\u6f64\u9905 (6451823745).jpg"
+  },
+  {
+   "pageid": 99148429,
+   "dish": "lumpia",
+   "title": "File:Choco Banana.jpg"
+  },
+  {
+   "pageid": 109931772,
+   "dish": "lumpia",
+   "title": "File:Turon on a stick.jpg"
+  },
+  {
+   "pageid": 126633340,
+   "dish": "lumpia",
+   "title": "File:Fresh lumpia (Lumpiang sariwa).jpg"
+  },
+  {
+   "pageid": 98612115,
+   "dish": "palabok",
+   "title": "File:0811Cuisine food of Bulacan Baliuag 22.jpg"
+  },
+  {
+   "pageid": 188408641,
+   "dish": "palabok",
+   "title": "File:Jollibee noodle dishes open.jpg"
+  },
+  {
+   "pageid": 128478931,
+   "dish": "pancit",
+   "title": "File:Pancit canton 08.jpg"
+  },
+  {
+   "pageid": 129000790,
+   "dish": "pancit",
+   "title": "File:Jaen Gapan City Nueva Ecija Province 46.jpg"
+  },
+  {
+   "pageid": 110483341,
+   "dish": "pandesal",
+   "title": "File:Finished product 420 wawiw.jpg"
+  },
+  {
+   "pageid": 110483346,
+   "dish": "pandesal",
+   "title": "File:Finished product 420 wawers.jpg"
+  },
+  {
+   "pageid": 110483351,
+   "dish": "pandesal",
+   "title": "File:Finished product 420 wawz.jpg"
+  },
+  {
+   "pageid": 110483360,
+   "dish": "pandesal",
+   "title": "File:Finished product 420 rar.jpg"
+  },
+  {
+   "pageid": 110483361,
+   "dish": "pandesal",
+   "title": "File:Finished product 420 rur.jpg"
+  },
+  {
+   "pageid": 110483363,
+   "dish": "pandesal",
+   "title": "File:Finished product 420 rir.jpg"
+  },
+  {
+   "pageid": 17053318,
+   "dish": "puto",
+   "title": "File:Puto bumbong.jpg"
+  },
+  {
+   "pageid": 34641161,
+   "dish": "puto",
+   "title": "File:Poto at kutsinta.jpg"
+  },
+  {
+   "pageid": 141577758,
+   "dish": "puto",
+   "title": "File:Puto Balanghoy with Bukayo Filling.jpg"
+  },
+  {
+   "pageid": 146645211,
+   "dish": "puto",
+   "title": "File:Insecto escama del g\u00e9nero Puto 13-11-2023.jpg"
+  },
+  {
+   "pageid": 61499673,
+   "dish": "sapin-sapin",
+   "title": "File:09198jfFood cuisine fruits Baliuag Pulilan Bulacan Roadsfvf 04.jpg"
+  },
+  {
+   "pageid": 152796099,
+   "dish": "sinigang",
+   "title": "File:Sinigang - Sept 2024.jpg"
+  },
+  {
+   "pageid": 144312772,
+   "dish": "sisig",
+   "title": "File:Aling Lucing Fred's Cafe 1.jpg"
+  },
+  {
+   "pageid": 166944152,
+   "dish": "tinola",
+   "title": "File:Parrt Ebelle Tinola 2023-10-21 006.jpg"
+  },
+  {
+   "pageid": 172569566,
+   "dish": "tinola",
+   "title": "File:Parrt Ebelle Tinola 2025-08-05 009.jpg"
+  },
+  {
+   "pageid": 172569638,
+   "dish": "tinola",
+   "title": "File:Parrt Ebelle Tinola 2025-08-05 010.jpg"
+  },
+  {
+   "pageid": 172569651,
+   "dish": "tinola",
+   "title": "File:Parrt Ebelle Tinola 2025-08-05 011.jpg"
+  },
+  {
+   "pageid": 172569669,
+   "dish": "tinola",
+   "title": "File:Parrt Ebelle Tinola 2025-08-05 012.jpg"
+  },
+  {
+   "pageid": 172569687,
+   "dish": "tinola",
+   "title": "File:Parrt Ebelle Tinola 2025-08-05 013.jpg"
+  },
+  {
+   "pageid": 107686434,
+   "dish": "ube-halaya",
+   "title": "File:Burnt Basque Ube Cheese.jpg"
+  }
+ ]
+}
